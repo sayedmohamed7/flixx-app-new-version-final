@@ -134,12 +134,16 @@ nav li {
 }
 
 nav li:has(#logout-link){
-  background-color: #4a54c457;
+  background-color: #f7ac0a72;
   padding: 8px;
   border-radius: 8px;
 }
 #logout-link:hover{
   border: none;
+}
+nav li:has(#logout-link):hover{
+  scale: 1.02;
+  background-color: #f7ac0a82;
 }
 
 nav a {
