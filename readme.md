@@ -31,14 +31,14 @@ A modern movie and TV show discovery app built with vanilla JavaScript, The Movi
 
 ## Demo
 
-[Live Demo Link](#) 
+[Live Demo Link](https://flixx-app-new-version-final.netlify.app/) 
 ---
 
 ## Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/flixx-app.git
+   git clone https://github.com/sayedmohamed7/flixx-app.git
    cd flixx-app
    ```
 
