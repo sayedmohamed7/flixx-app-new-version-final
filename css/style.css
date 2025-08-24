@@ -89,6 +89,13 @@ body {
   color: transparent;
   animation: gradient-animation 1.5s ease-in-out 1;
 }
+
+@media (max-width: 640px) {
+  #welcome-message-div {
+  font-size: 1rem;
+  }
+}
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
