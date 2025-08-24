@@ -134,7 +134,9 @@ nav li {
 }
 
 nav li:has(#logout-link){
-  background-color: #f7ac0a72;
+  background-color: #4a54c457;
+  border: 1px solid #4a54c457;
+
   padding: 8px;
   border-radius: 8px;
 }
@@ -142,8 +144,9 @@ nav li:has(#logout-link){
   border: none;
 }
 nav li:has(#logout-link):hover{
-  scale: 1.02;
-  background-color: #f7ac0a82;
+  border: 1px solid var(--primary-color);
+  background-color: #36393f00;
+  color: #4a54c457;
 }
 
 nav a {
