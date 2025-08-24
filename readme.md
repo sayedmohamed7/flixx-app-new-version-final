@@ -3,19 +3,24 @@
   This document provides a comprehensive overview of the Movie and TV Show Web Application project. It outlines the project's purpose, features, and the task breakdown for each team member.
 
   ## Project Description
-    Our web application is a dynamic platform for **discovering** movies and TV shows. Built with vanilla JavaScript and CSS, it provides a clean, user-friendly interface to browse popular content, view detailed information, and search for specific titles. The application leverages the TMDB API to fetch and display real-time data without the use of external libraries.
+    Our web application is a dynamic platform for discovering movies and TV shows. Built with vanilla JavaScript and CSS, it provides a clean, user-friendly interface to browse popular content, view detailed information, and search for specific titles. The application leverages the [**TMDB**](https://www.themoviedb.org/) API: to fetch and display real-time data without the use of external libraries.
 
   ### Key Features:
 
-  #### **Home Page:** Displays the top 20 most popular movies and a dynamic "Now Playing" slider.
+  #### **Home Page:** 
+    Displays the top 20 most popular movies and a dynamic "Now Playing" slider.
 
-  #### **Search Functionality:** A search bar with radio buttons for searching movies or TV shows.
+  #### **Search Functionality:**
+    A search bar with radio buttons for searching movies or TV shows.
 
-  #### **Details Pages:** Dedicated pages to show comprehensive information for a selected movie or TV show.
+  #### **Details Pages:**
+    Dedicated pages to show comprehensive information for a selected movie or TV show.
 
-  #### **TV Shows Page:** A dedicated page to browse popular TV shows.
+  #### **TV Shows Page:**
+    A dedicated page to browse popular TV shows.
 
-  #### **User Authentication:** A simple login and registration system for user sign-ups and access.
+  #### **User Authentication:**
+    A simple login and registration system for user sign-ups and access.
 
   ## Team and Task Breakdown
       This project is a collaborative effort, with each team member assigned specific tasks to ensure a smooth and efficient workflow.
