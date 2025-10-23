@@ -621,12 +621,14 @@ function init() {
     hamburgerButton.classList.toggle('is-active');
     navMenu.classList.toggle('active');
   }
-  hamburgerButton.addEventListener('click', toggleMobileMenu);
-  navMenu.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      if (navMenu.classList.contains('active')) toggleMobileMenu();
+  if (window.location.pathname !== '/login.html' && window.location.pathname !== '/register.html'){
+    hamburgerButton.addEventListener('click', toggleMobileMenu);
+    navMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        if (navMenu.classList.contains('active')) toggleMobileMenu();
+      });
     });
-  });
+  }
 
   highlightActiveLink();
 }
